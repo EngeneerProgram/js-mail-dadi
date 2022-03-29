@@ -7,23 +7,11 @@ document.querySelector(".btn").onclick = function(){
     console.log(nome);
     document.getElementById("utente").innerHTML=(nome);
     
-    
+    let mail = document.getElementById("mail").value;
+console.log(mail);
 }
 
+//Chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo.
+//1) chiedere all'utente l'email
 
-//inizializziamo un contenitori con le email da verificare
-let email = document.getElementById("email_user").value;
-console.log(email);
-let verica_mail = ["saro.garufi1@gmail.com", "pippo-pluto@hotmail.com", "paperino@live.it", "giannaluca@gmail.com"];
-
-for(let i = 0; i<verica_mail.length; i++){
-    console.log(verica_mail[i]);
-   let verifica;
-   if(verifica == email[i]){
-       console.log("Accesso approvato");
-   }else{
-       console.log("Account non registrato")
-   }
-
-}
 
