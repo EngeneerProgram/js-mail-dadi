@@ -7,7 +7,7 @@
 
 .container{
     width: 1200px;
-    height: 800px;
+    
     margin:6rem auto;
     display:Flex;
     flex-direction: column;
@@ -47,4 +47,62 @@ form{
     border-radius: 10px;
   
     cursor:pointer;
+}
+
+
+#accedi{
+    padding-top:10px;
+}
+
+.gioco-dadi{
+    width: 1200px;
+    
+    margin:2rem auto;
+    display:flex;
+    justify-content: center;
+
+}
+
+.player{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.user1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center{
+    color: red;
+    font-size: 35px;
+}
+
+#risultato{
+    text-align: center;
+}
+
+.genera{
+    padding:10px 50px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.tira{
+    display:flex;
+    justify-content: center;
+    padding-bottom:20px;
 }
